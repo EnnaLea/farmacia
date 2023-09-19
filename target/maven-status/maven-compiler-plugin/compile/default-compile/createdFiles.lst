@@ -1,0 +1,16 @@
+com\example\Pharmacy\model\Profilo.class
+com\example\Pharmacy\dto\FarmaciaDTO$FarmaciaDTOBuilder.class
+com\example\Pharmacy\model\Farmacia.class
+com\example\Pharmacy\model\Profilo$ProfiloBuilder.class
+com\example\Pharmacy\dto\FarmacoDTO$FarmacoDTOBuilder.class
+com\example\Pharmacy\dto\ProfileDTO.class
+com\example\Pharmacy\model\Farmacia$FarmaciaBuilder.class
+com\example\Pharmacy\model\Farmacista.class
+com\example\Pharmacy\model\Farmacista$FarmacistaBuilder.class
+com\example\Pharmacy\dto\FarmacistaDTO$FarmacistaDTOBuilder.class
+com\example\Pharmacy\model\Farmaco.class
+com\example\Pharmacy\dao\UserRepository.class
+com\example\Pharmacy\model\Farmaco$FarmacoBuilder.class
+com\example\Pharmacy\model\User$UserBuilder.class
+com\example\Pharmacy\dto\ProfileDTO$ProfileDTOBuilder.class
+com\example\Pharmacy\dto\UserDTO$UserDTOBuilder.class
