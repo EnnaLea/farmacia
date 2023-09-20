@@ -28,4 +28,10 @@ public class Farmacista {
     private String partitaIva;
 
     private String number;
+
+
+//    fare una pagina login per farmacista
+    private String username;
+
+    private String password;
 }

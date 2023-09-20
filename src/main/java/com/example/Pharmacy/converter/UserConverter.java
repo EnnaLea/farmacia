@@ -2,7 +2,6 @@ package com.example.Pharmacy.converter;
 
 import com.example.Pharmacy.dto.UserDTO;
 import com.example.Pharmacy.model.User;
-import jakarta.persistence.Converter;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -14,6 +13,7 @@ public class UserConverter {
                 .id(userDTO.getId())
                 .username(userDTO.getUsername())
                 .password(userDTO.getPassword())
+//                .userType(userDTO.getUserType())
                 .build();
 
         return user;
@@ -24,6 +24,7 @@ public class UserConverter {
                 .id(user.getId())
                 .username(user.getUsername())
                 .password(user.getPassword())
+//                .userType(user.getUserType())
                 .build();
         return userDTO;
     }

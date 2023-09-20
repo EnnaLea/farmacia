@@ -15,13 +15,21 @@ import lombok.NoArgsConstructor;
 @Builder
 @Entity
 public class User {
+    public enum UserType{
+        ADMIN,
+        USER
+    }
+
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
+
+//    fare una pagina login per user
     private String username;
 
     private String password;
+
 
 
 }

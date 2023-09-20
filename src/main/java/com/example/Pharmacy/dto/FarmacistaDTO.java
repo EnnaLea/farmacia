@@ -23,4 +23,8 @@ public class FarmacistaDTO {
     private String partitaIva;
 
     private String number;
+
+    private String username;
+
+    private String password;
 }
