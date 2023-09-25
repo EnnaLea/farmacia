@@ -1,6 +1,7 @@
 package com.example.Pharmacy.dto;
 
 import com.example.Pharmacy.model.User;
+import com.example.Pharmacy.model.User.UserType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,7 +19,7 @@ public class UserDTO {
 
     private String password;
 
-    private User.UserType userType;
+    private UserType userType;
 
 
 }

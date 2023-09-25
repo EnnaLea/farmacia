@@ -17,10 +17,8 @@ public class UserController {
     UserService service;
 
     @PostMapping("/login")
-    public UserDTO login(@RequestBody LoginDTO loginDTO){
-
-        return service.login(loginDTO.getUsername(), loginDTO.getPassword());
-
+    public UserDTO login(@RequestBody LoginDTO loginDTO) {
+        return service.findByUsernameAndPassword(loginDTO.getUsername(), loginDTO.getPassword());
     }
 
     @GetMapping("/finduser")

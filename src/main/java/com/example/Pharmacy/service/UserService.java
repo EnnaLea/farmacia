@@ -16,11 +16,11 @@ public class UserService {
     @Autowired
     UserConverter converter;
 
-    public UserDTO login(String username, String password){
-        return converter.toDto(repository.findByUsernameAndPassword(username, password));
+    public UserDTO findByUsernameAndPassword(String username, String password){
+        return converter.toDto(((UserRepository)repository).findByUsernameAndPassword(username, password));
     }
 
     public UserDTO find(Long id){
-       return converter.toDto(repository.findByIdUser(id));
+       return converter.toDto(((UserRepository)repository).findByIdUser(id));
     }
 }

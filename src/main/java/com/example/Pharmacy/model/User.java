@@ -24,8 +24,6 @@ public class User {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
-
-//    fare una pagina login per user
     private String username;
 
     private String password;
