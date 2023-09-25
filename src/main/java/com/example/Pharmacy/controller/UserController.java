@@ -1,6 +1,7 @@
 package com.example.Pharmacy.controller;
 
 
+import com.example.Pharmacy.dto.LoginDTO;
 import com.example.Pharmacy.dto.UserDTO;
 import com.example.Pharmacy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,10 +16,10 @@ public class UserController {
     @Autowired
     UserService service;
 
-    @PostMapping("userlogin")
-    public UserDTO login(@RequestBody UserDTO userDTO){
+    @PostMapping("/login")
+    public UserDTO login(@RequestBody LoginDTO loginDTO){
 
-        return service.login(userDTO.getUsername(), userDTO.getPassword());
+        return service.login(loginDTO.getUsername(), loginDTO.getPassword());
 
     }
 

@@ -13,7 +13,7 @@ public class UserConverter {
                 .id(userDTO.getId())
                 .username(userDTO.getUsername())
                 .password(userDTO.getPassword())
-//                .userType(userDTO.getUserType())
+                .userType(userDTO.getUserType())
                 .build();
 
         return user;
@@ -24,7 +24,7 @@ public class UserConverter {
                 .id(user.getId())
                 .username(user.getUsername())
                 .password(user.getPassword())
-//                .userType(user.getUserType())
+                .userType(user.getUserType())
                 .build();
         return userDTO;
     }
